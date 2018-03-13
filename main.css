@@ -65,8 +65,6 @@ html {
 	margin-bottom:90px;
 }
 .header-inner{
-	max-width:850px;
-	margin:0 auto;
 	padding-top:60px;
 }
 .header-title{
@@ -74,9 +72,11 @@ html {
 	font-weight:700;
 	letter-spacing: -2px;
 }
-.content{
+.content,.header-inner{
 	max-width:850px;
-	margin:0 auto;
+}
+.content,.header-inner,#bio .section-paragraph,.innerfooter{
+		margin:0 auto;
 }
 /*-- intro --*/
 #intro{
@@ -85,16 +85,15 @@ html {
 .intro-title{
 	font-size:1.87em;
 	text-align:center;
-	font-weight:300;
+}
+.intro-title,#bio .section-paragraph,.port-details h6,.port-details a,#footer h6{
+		font-weight:300;
 }
 #pyramid {
 	width:32px;
 	height:32px;
 	vertical-align: text-bottom;
 	fill:#fff;
-}
-.iconic-signal.iconic-signal-strong .iconic-signal-base {
-    fill:#fff;
 }
 /*-- bio --*/
 #bio{
@@ -108,11 +107,9 @@ html {
 }
 #bio .section-paragraph{
 	max-width:550px;
-	margin:0 auto;
 	text-align:left;
 	line-height:26px;
 	font-size:1em;
-	font-weight:300;
 	padding: 0px 10px;
 }
 /*-- portfolio --*/
@@ -144,14 +141,12 @@ html {
 }
 .port-details h6{
 	font-size:1em;
-	font-weight:300;
 	line-height:24px;
 	margin-bottom:40px;
 }
 .port-details a{
 	color:white;
 	font-size:1em;
-	font-weight:300;
 	line-height:50px;
 	text-align:center;
 	display:block;
@@ -177,11 +172,9 @@ html {
 	text-align:center;
 	margin-bottom:30px;
 	font-size:1.5em;
-	font-weight:300;
 }
 .innerfooter{
 	max-width:850px;
-	margin:0 auto;
 	padding-bottom:10px;
 }
 .social-contacts{
