@@ -205,15 +205,25 @@ html {
 	}
 	.port-image{
 		width:100%;
+		margin-bottom:24px;
 	}
 	.port-image img{
-		max-height:251px;
+		max-height:294px;
+		max-width:425px;
+		display: block;
+		margin:0 auto;
 	}
 	.port-details{
 		width:100%;
 		text-align:center;
 	}
+	.port-details h6{
+		max-width:425px;
+		margin:0 auto;
+		margin-bottom:24px;
+	}
 	.port-button{
 		margin:0 auto;
 	}
+
 }
