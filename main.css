@@ -31,13 +31,13 @@ footer, header, hgroup, menu, nav, section {
 body {
   font-size:16px;
 	line-height: 1;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 }
 ol, ul {
 	list-style: none;
 }
 a {
-  color: black;
+  color: #000;
   text-decoration: none; /* no underline */
 }
 blockquote, q {
