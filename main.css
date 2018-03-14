@@ -53,19 +53,19 @@ table {
 	border-spacing: 0;
 }
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 *,
 *::after,
 *::before {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
-/*--- header---*/
+/* TODO: Header section */
 #header{
-	margin-bottom:90px;
+	margin-bottom: 90px;
 }
 .header-inner{
-	padding-top:60px;
+	padding-top: 60px;
 }
 .header-title{
 	font-size:2.25em;
@@ -73,162 +73,162 @@ html {
 	letter-spacing: -2px;
 }
 .content,.header-inner{
-	max-width:850px;
+	max-width: 850px;
 }
 .content,.header-inner,#bio .section-paragraph,.innerfooter{
-		margin:0 auto;
+		margin: 0 auto;
 }
-/*-- intro --*/
+/* TODO: Intro section */
 #intro{
-	margin-bottom:120px;
+	margin-bottom: 120px;
 }
 .intro-title{
-	font-size:1.87em;
-	text-align:center;
+	font-size: 1.87em;
+	text-align: center;
 }
 .intro-title,#bio .section-paragraph,.port-details h6,.port-details a,#footer h6{
-		font-weight:300;
+		font-weight: 300;
 }
 #pyramid {
-	width:32px;
-	height:32px;
+	width: 32px;
+	height: 32px;
 	vertical-align: text-bottom;
-	fill:#fff;
+	fill: #fff;
 }
-/*-- bio --*/
+/* TODO: Bio section */
 #bio{
-	margin-bottom:60px;
-	text-align:center;
+	margin-bottom: 60px;
+	text-align: center;
 }
 #bio .section-title{
-	font-size:1.12em;
-	margin-bottom:40px;
-	font-weight:400;
+	font-size: 1.12em;
+	margin-bottom: 40px;
+	font-weight: 400;
 }
 #bio .section-paragraph{
-	max-width:550px;
-	text-align:left;
-	line-height:26px;
-	font-size:1em;
+	max-width: 550px;
+	text-align: left;
+	line-height: 26px;
+	font-size: 1em;
 	padding: 0px 10px;
 }
-/*-- portfolio --*/
+/* TODO: portfolio section */
 #portfolio{
-	width:100%;
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 }
 .port-item{
-	width:100%;
-	margin-bottom:60px;
+	width: 100%;
+	margin-bottom: 60px;
 	display: flex;
 	flex-wrap: wrap;
 }
 .port-image{
-	width:50%;
+	width: 50%;
 }
 .port-image img{
-	width:100%;
+	width: 100%;
 }
 .port-details{
-	width:50%;
-	padding-left:30px;
+	width: 50%;
+	padding-left: 30px;
 }
 .port-details h5{
-	font-size:1.25em;
-	font-weight:400;
-	margin-bottom:24px;
+	font-size: 1.25em;
+	font-weight: 400;
+	margin-bottom: 24px;
 }
 .port-details h6{
-	font-size:1em;
-	line-height:24px;
-	margin-bottom:40px;
+	font-size: 1em;
+	line-height: 24px;
+	margin-bottom: 40px;
 }
 .port-details a{
-	color:white;
-	font-size:1em;
-	line-height:50px;
-	text-align:center;
-	display:block;
-	width:40%;
-	min-height:50px;
-	background:black;
+	color: #fff;
+	font-size: 1em;
+	line-height: 50px;
+	text-align: center;
+	display: block;
+	width: 40%;
+	min-height: 50px;
+	background: #000;
 }
 .port-title{
-	width:100%;
-	margin-bottom:100px;
-	text-align:center;
-	font-weight:400;
-	font-size:1.25em;
+	width: 100%;
+	margin-bottom: 100px;
+	text-align: center;
+	font-weight: 400;
+	font-size: 1.25em;
 }
-/*-- footer--*/
+/* TODO: footer section */
 #footer{
-	margin-top:40px;
-	padding-top:20px;
-	width:100%;
-	background:#f0f0f0;
+	margin-top: 40px;
+	padding-top: 20px;
+	width: 100%;
+	background: #f0f0f0;
 }
 #footer h6{
-	text-align:center;
-	margin-bottom:30px;
-	font-size:1.5em;
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 1.5em;
 }
 .innerfooter{
-	max-width:850px;
-	padding-bottom:10px;
+	max-width: 850px;
+	padding-bottom: 10px;
 }
 .social-contacts{
 	display: table;
 	margin: 0 auto;
 }
 .social-contacts a{
-	display:inline-block;
-	margin-right:30px;
+	display: inline-block;
+	margin-right: 30px;
 }
 .social-contacts img{
 	vertical-align: text-bottom;
 }
 .social-contacts a:last-child{
-	margin-right:0;
+	margin-right: 0;
 }
 .social-icon{
-	height:32px;
-	width:32px;
+	height: 32px;
+	width: 32px;
 }
-/*-- responsive --*/
+/* TODO: Responsive media quiry */
 @media only screen and (max-width: 710px){
 	.header-title{
 		margin-left: 15px;
 	}
 	.port-item{
-		margin-bottom:30px;
+		margin-bottom: 30px;
 	}
 	.port-image{
-		width:100%;
-		margin-bottom:24px;
+		width: 100%;
+		margin-bottom: 24px;
 	}
 	.port-image img{
-		max-height:294px;
-		max-width:425px;
+		max-height: 294px;
+		max-width: 425px;
 		display: block;
-		margin:0 auto;
+		margin: 0 auto;
 	}
 	.port-details{
-		width:100%;
-		text-align:center;
+		width: 100%;
+		text-align: center;
 	}
 	.port-details h6{
-		max-width:425px;
-		margin:0 auto;
-		margin-bottom:24px;
+		max-width: 425px;
+		margin: 0 auto;
+		margin-bottom: 24px;
 	}
 	.port-button{
-		margin:0 auto;
+		margin: 0 auto;
 	}
 
 }
 @media only screen and (max-width:450px){
 	.port-details a {
-		width:156px;
+		width: 156px;
 	}
 }
