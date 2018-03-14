@@ -24,87 +24,128 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
   font-size:16px;
 	line-height: 1;
 	font-family: "Raleway", sans-serif;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
+
 a {
   color: #000;
   text-decoration: none; /* no underline */
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
+
+blockquote:before,
+blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 html {
   box-sizing: border-box;
 }
+
 *,
 *::after,
 *::before {
   box-sizing: inherit;
 }
+
 /* TODO: Header section */
 #header{
 	margin-bottom: 90px;
 }
+
 .header-inner{
 	padding-top: 60px;
 }
+
 .header-title{
 	font-size:2.25em;
 	font-weight:700;
 	letter-spacing: -2px;
 }
+
 .content,.header-inner{
 	max-width: 850px;
 }
-.content,.header-inner,#bio .section-paragraph,.innerfooter{
+
+.content,
+.header-inner,
+.section-paragraph,
+.inner-footer{
 		margin: 0 auto;
 }
+
 /* TODO: Intro section */
+
 #intro{
 	margin-bottom: 120px;
 }
+
 .intro-title{
 	font-size: 1.87em;
 	text-align: center;
 }
-.intro-title,.section-paragraph,.port-details h6,.port-details a,#footer h6{
+
+.intro-title,
+.section-paragraph,
+.port-details h6,
+.port-details a,
+#footer h6{
 		font-weight: 300;
 }
+
 #pyramid {
 	width: 32px;
 	height: 32px;
 	vertical-align: text-bottom;
 	fill: #fff;
 }
+
 /* TODO: Bio section */
+
 #bio{
 	margin-bottom: 60px;
 	text-align: center;
 }
+
 .section-title{
 	font-size: 1.12em;
 	margin-bottom: 40px;
 	font-weight: 400;
 }
+
 .section-paragraph{
 	max-width: 550px;
 	text-align: left;
@@ -112,38 +153,47 @@ html {
 	font-size: 1em;
 	padding: 0px 10px;
 }
+
 /* TODO: portfolio section */
+
 #portfolio{
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 }
+
 .port-item{
 	width: 100%;
 	margin-bottom: 60px;
 	display: flex;
 	flex-wrap: wrap;
 }
+
 .port-image{
 	width: 50%;
 }
+
 .port-image img{
 	width: 100%;
 }
+
 .port-details{
 	width: 50%;
 	padding-left: 30px;
 }
+
 .port-details h5{
 	font-size: 1.25em;
 	font-weight: 400;
 	margin-bottom: 24px;
 }
+
 .port-details h6{
 	font-size: 1em;
 	line-height: 24px;
 	margin-bottom: 40px;
 }
+
 .port-details a{
 	color: #fff;
 	font-size: 1em;
@@ -154,6 +204,7 @@ html {
 	min-height: 50px;
 	background: #000;
 }
+
 .port-title{
 	width: 100%;
 	margin-bottom: 100px;
@@ -161,74 +212,93 @@ html {
 	font-weight: 400;
 	font-size: 1.25em;
 }
+
 /* TODO: footer section */
+
 #footer{
 	margin-top: 40px;
 	padding-top: 20px;
 	width: 100%;
 	background: #f0f0f0;
 }
+
 #footer h6{
 	text-align: center;
 	margin-bottom: 30px;
 	font-size: 1.5em;
 }
-.innerfooter{
+
+.inner-footer{
 	max-width: 850px;
 	padding-bottom: 10px;
 }
+
 .social-contacts{
 	display: table;
 	margin: 0 auto;
 }
+
 .social-contacts a{
 	display: inline-block;
 	margin-right: 30px;
 }
+
 .social-contacts img{
 	vertical-align: text-bottom;
 }
+
 .social-contacts a:last-child{
 	margin-right: 0;
 }
+
 .social-icon{
 	height: 32px;
 	width: 32px;
 }
+
 /* TODO: Responsive media quiry */
+
 @media only screen and (max-width: 710px){
 	.header-title{
 		margin-left: 15px;
 	}
+
 	.port-item{
 		margin-bottom: 30px;
 	}
+
 	.port-image{
 		width: 100%;
 		margin-bottom: 24px;
 	}
+
 	.port-image img{
 		max-height: 294px;
 		max-width: 425px;
 		display: block;
 		margin: 0 auto;
 	}
+
 	.port-details{
 		width: 100%;
 		text-align: center;
 	}
+
 	.port-details h6{
 		max-width: 425px;
 		margin: 0 auto;
 		margin-bottom: 24px;
 	}
+
 	.port-button{
 		margin: 0 auto;
 	}
 
 }
+
 @media only screen and (max-width:450px){
 	.port-details a {
 		width: 156px;
 	}
+
 }
