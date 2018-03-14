@@ -86,7 +86,7 @@ html {
 	font-size: 1.87em;
 	text-align: center;
 }
-.intro-title,#bio .section-paragraph,.port-details h6,.port-details a,#footer h6{
+.intro-title,.section-paragraph,.port-details h6,.port-details a,#footer h6{
 		font-weight: 300;
 }
 #pyramid {
@@ -100,12 +100,12 @@ html {
 	margin-bottom: 60px;
 	text-align: center;
 }
-#bio .section-title{
+.section-title{
 	font-size: 1.12em;
 	margin-bottom: 40px;
 	font-weight: 400;
 }
-#bio .section-paragraph{
+.section-paragraph{
 	max-width: 550px;
 	text-align: left;
 	line-height: 26px;
