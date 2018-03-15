@@ -262,6 +262,10 @@ html {
 	.header-title{
 		margin-left: 15px;
 	}
+	
+	.port-details{
+		padding-left: 0;
+	}
 
 	.port-item{
 		margin-bottom: 30px;
