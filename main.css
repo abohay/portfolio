@@ -263,10 +263,6 @@ html {
 		margin-left: 15px;
 	}
 	
-	.port-details{
-		padding-left: 0;
-	}
-
 	.port-item{
 		margin-bottom: 30px;
 	}
@@ -286,6 +282,7 @@ html {
 	.port-details{
 		width: 100%;
 		text-align: center;
+		padding-left: 0;
 	}
 
 	.port-details h6{
