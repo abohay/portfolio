@@ -97,7 +97,7 @@ html {
 	position: relative;
 	display: inline-block;
 }
-.header-title span{
+.header-title .tooltip{
 	visibility: hidden;
 	width: 120px;
 	background-color: black;
@@ -110,7 +110,7 @@ html {
 	position: absolute;
 	z-index: 1;
 }
-.header-title:hover span{
+.header-title:hover .tooltip{
 	visibility: visible;
 }
 .content,.header-inner{
